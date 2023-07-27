@@ -1,0 +1,26 @@
+|OCHS
+per <= inst15.DB_MAX_OUTPUT_PORT_TYPE
+a1 => inst.IN0
+a1 => inst13.IN0
+a1 => inst14.IN0
+a1 => inst12.IN0
+a2 => inst10.IN1
+a2 => inst9.IN1
+a2 => inst5.IN0
+a2 => inst19.IN0
+a2 => inst18.IN0
+b2 => inst10.IN2
+b2 => inst11.IN1
+b2 => inst7.IN0
+b2 => inst20.IN1
+b2 => inst18.IN1
+p => inst11.IN2
+p => inst9.IN2
+p => inst8.IN0
+p => inst17.IN2
+p => inst18.IN2
+S1 <= inst16.DB_MAX_OUTPUT_PORT_TYPE
+S2 <= inst21.DB_MAX_OUTPUT_PORT_TYPE
+b1 => ~NO_FANOUT~
+
+
